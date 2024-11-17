@@ -43,7 +43,7 @@ HapusPerselisihan();
 }      
 
 Metode hapusinput() di panggil
-/ private void Hapus() {
+private void Hapus() {
         cbxBulan.setSelectedIndex(0);
         spTahun.setValue(2023);
         jCalendar.setCalendar(Calendar.getInstance());
