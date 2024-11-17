@@ -157,7 +157,7 @@ private void SelisihHari() {
     
 
 # Hasil Gambar Project Ketika di Run
-![]().
+![](https://github.com/Irfazi/PerhitunganHari/blob/main/Screenshot%202024-11-17%20192906.png).
 ## Indikator Penilaian:
 
 | No  | Komponen         |  Persentase  |
