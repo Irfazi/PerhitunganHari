@@ -60,17 +60,18 @@ Penggunaan API tanggal (LocalDate), Perhitungan hari dalam bulan, Perhitungan ta
 
 # 4. Events:
 * ActionListener untuk tombol Hitung
+  
 
  private void btnHitungActionPerformed(java.awt.event.ActionEvent evt) {                                          
     btnHitung.addActionListener((ActionEvent e) -> {
         kalkulatorhari();
-    });
-    
+    });    
 
 Penjelasan Kode :
 ActionListener pada buttonHitung Saat tombol ditekan, metode kalkulatorhari() akan dipanggil.
 
  private void MenghitungHari() {
+ 
         int month = cbxBulan.getSelectedIndex() + 1;
         int year = (int) spTahun.getValue();
         Calendar selectedDate = jCalendar.getCalendar();
