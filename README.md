@@ -96,13 +96,13 @@ Metode hitungHari():
 - Hasil jumlah hari ditampilkan di labelHasil.
   
 * ChangeListener pada JSpinner untuk input tahun
-
+  
 private void spTahunStateChanged(javax.swing.event.ChangeEvent evt) {                                     
         spTahun.addChangeListener((ChangeEvent e) -> {
         BulanTahun();
     });
     }     
-
+    
 Listener untuk mengubah bulan dan tahun pada JCalendar saat ComboBox atau Spinner berubah
 
  private void cbxBulanItemStateChanged(java.awt.event.ItemEvent evt) {                                          
