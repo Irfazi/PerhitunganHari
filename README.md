@@ -35,12 +35,12 @@ private void btnHitungActionPerformed(java.awt.event.ActionEvent evt) {
 
 - Button Hapus
 
-private void btnHapusSelisihActionPerformed(java.awt.event.ActionEvent evt) {                                                
-       btnHapusSelisih.addActionListener((ActionEvent e) -> {
-            HapusPerselisihan();
-        });
-       
-    }      
+private void btnHapusSelisihActionPerformed(java.awt.event.ActionEvent evt) {  
+
+btnHapusSelisih.addActionListener((ActionEvent e) -> {
+HapusPerselisihan();
+});
+}      
 
 Metode hapusinput() di panggil
 / private void Hapus() {
